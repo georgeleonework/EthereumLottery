@@ -24,11 +24,13 @@ export default function Home() {
         </nav>
         <div className="container">
           <section className="mt-5">
-            <div className="column is-two-thirds">
-              <p>Lottery Buttons</p>
-            </div>
-            <div className="column is-one-third">
-              <p>Lottery Info</p>
+            <div className="columns">
+              <div className="column is-two-thirds">
+                <p>Lottery Buttons</p>
+              </div>
+              <div className="column is-one-third">
+                <p>Lottery Info</p>
+              </div>
             </div>
           </section>
         </div>
